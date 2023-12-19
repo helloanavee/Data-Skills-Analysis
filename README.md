@@ -28,18 +28,19 @@ The methodology used to collect and analyze the data is summarized below:
 3. Data Analysis
 <br> The plan for this project was to use dimensionality reduction to analyze and segment the jobs and their corresponding skills. Because the data was a free-form text, various steps were taken to refine the results and the segmentation created.
 <ul>
-   <li> Feature engineering
+   <li> **Feature engineering**
    <br> The `jobDetails` is a freeform text for the company to write all about the job and the company, and as such also contains details about the company, benefits, working hours, and skills needed for the job. We realized that the results get muddled because of the words that come from this.
+   <br>
    <br> We created a new feature `skill` from the `jobDetails` feature. All words after the word "skill" or "experience" are put in the column `skill` as companies tend to write about the skills needed for the job in the likes of "Preferably with experience in" or "Skill Required:".
    </li>
    
-   <li> Vectorized the words
+   <li> **TF-IDF vectorization**
    <br> In the end, the analysis used 2 columns from the dataset: the `classification` and the `skills` columns. The words in the `skills` column were vectorized for data processing.
    <br>
    <br> The Stop words used in the vectorization included SKLearn's English words, and also customized stop words containing business words (eg. "retirement", "workday").
    </li>
 
-   <li> Dimensionality reduction
+   <li> **Dimensionality reduction**
    <br> We used dimensionality reduction techniques, specifically Truncated SVD, to simplify the job post data and find the most important features (or words).
    <br>
    <br> The singular vectors of the words were turned into bar graphs, signifying the axis of the words defining that feature.
