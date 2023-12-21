@@ -62,8 +62,18 @@ The methodology used to collect and analyze the data is summarized below:
 </ul>
 
 ## Analysis and Key Insights
-Word clouds containing the industry of the job and the related "skill" words show the skills of certain groups of industries. The key insights from the analysis show:
+Word clouds containing the industry of the job and the related "skill" words show the skills of certain groups of industries. 
 
+![SV1 bar](https://github.com/helloanavee/data-skills-analysis/assets/15902153/327ec4f9-d4ca-487b-90e3-2efdbaa9422a)
+<br><i>Fig. 1. Bar graph of the 1st singular vector of words from the job's classification and skills</i>
+
+![SV1](https://github.com/helloanavee/data-skills-analysis/assets/15902153/725247f7-2a64-45e0-b898-590b9b57e456)
+<br><i>Fig. 2. Word cloud from the 1st singular vector</i>
+
+<br>
+<br>
+
+The key insights from the analysis show:
 - The primary job segments in data-related positions emerge from the Accounting, Call Centre and Customer Service, and Information & Communication Technology domains.
 - Working with clients and communication skills emerged as the persistent and prevailing skill wanted across many job segments.
 - While career shifters and students focus on hard skills, it was shown here that employers value core competency and soft skills that help them solve their problems, rather than specific technical skills.
