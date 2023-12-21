@@ -1,5 +1,4 @@
-### If Data is the New Oil, Where are the Oil Fields? 
-# Identifying In-Demand Job Skill Segments in the Philippine Data Industry
+![LT4 - Final Project Banner](https://github.com/helloanavee/data-skills-analysis/assets/15902153/3352cd8e-dc02-43af-b14a-9e1fdf43e88d)
 
 [Read the full report here](https://helloanavee.github.io/data-skills-analysis/data-skills.html)
 
