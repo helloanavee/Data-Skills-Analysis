@@ -29,10 +29,16 @@ JobStreet PH, a prominent online hiring platform, was scraped. The data scraped 
 - and the `jobDetails` - contains the description of the job post.
 
 ## Methodology
+![method-job](https://github.com/helloanavee/data-skills-analysis/assets/15902153/208c1b52-a30b-496c-b605-abcef21ce213)
+<br>
+
 The methodology used to collect and analyze the data is summarized below:
 
 1. Data Collection
 <br> We first web-scraped job posting data from JobStreet, using “data” and “Philippines” as queries to filter relevant job posts. Job posts were further refined, as only postings that contained the word "data" in either the job title, job description, or teaser were used. This returned 2,681 rows of job posts.
+
+<img width="797" alt="jobstreet" src="https://github.com/helloanavee/data-skills-analysis/assets/15902153/2411ad3f-f62b-4362-84e0-0cbaaf79e299">
+<br><i>Fig. 1. JobStreet interface with filters "data" and "Philippines"</i>
    
 2. Data Cleaning
 <br> Second, we cleaned job details text and job data. The `jobDetails` field was cleaned to remove Unicode characters, and combined words were separated (eg. "skillProficient" to "skill Proficient"). Since the job details hold the key skills for analysis, cleaning this data was crucial.
@@ -65,10 +71,10 @@ The methodology used to collect and analyze the data is summarized below:
 Word clouds containing the industry of the job and the related "skill" words show the skills of certain groups of industries. 
 
 ![SV1 bar](https://github.com/helloanavee/data-skills-analysis/assets/15902153/327ec4f9-d4ca-487b-90e3-2efdbaa9422a)
-<br><i>Fig. 1. Bar graph of the 1st singular vector of words from the job's classification and skills</i>
+<br><i>Fig. 2. Bar graph of the 1st singular vector of words from the job's classification and skills</i>
 
 ![SV1](https://github.com/helloanavee/data-skills-analysis/assets/15902153/725247f7-2a64-45e0-b898-590b9b57e456)
-<br><i>Fig. 2. Word cloud from the 1st singular vector</i>
+<br><i>Fig. 3. Word cloud from the 1st singular vector</i>
 
 <br>
 <br>
